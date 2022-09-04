@@ -11,6 +11,18 @@ const Plate = () => {
   return (
     <div>
       <div className="md:py-[-5rem]">
+        <motion.img
+          src="https://www.codechefvit.com/Images/codechef_logo_1.svg"
+          alt="codechef"
+          className="object-contain mx-auto sm:block md:hidden lg:hidden"
+          animate={{
+            rotate: [50, 0],
+            opacity: [0, 0, 1],
+            transition: {
+              duration: 1,
+            },
+          }}
+        />
         <div className="flex justify-between items-center">
           <div className="flex relative">
             <motion.img
@@ -41,19 +53,38 @@ const Plate = () => {
                   rotate: [50, 0],
                   opacity: [1, 0],
                   transition: {
-                    duration: 2,
+                    duration: 5,
                   },
+                }}
+              />
+              <motion.img
+                src="https://www.codechefvit.com/Images/codechef_logo_1.svg"
+                alt="codechef"
+                className="hidden md:inline-block lg:inline-block w-12 absolute z-20 bottom-[10.2rem] left-[5.5rem] md:w-36 md:left-[8.2rem] md:top-[4.5rem] lg:w-[15rem] lg:left-[9rem] lg:top-[5.25rem]"
+                animate={{
+                  rotate: [-50, 0],
+                  opacity: [0, 0, 1],
+                  transition: {
+                    duration: 5,
+                  },
+                }}
+                drag
+                dragConstraints={{
+                  top: -20,
+                  left: -20,
+                  right: 20,
+                  bottom: 20,
                 }}
               />
               <motion.img
                 src={Cookoff}
                 alt="cookoff"
-                className="w-56 absolute z-20 bottom-[6.6rem] left-[0.4rem] md:w-96 md:left-[0.8rem] md:top-[10rem] lg:w-[30rem] lg:left-[1.5rem] lg:top-[13.5rem]"
+                className="w-56 absolute z-20 bottom-[6.6rem] left-[0.4rem] md:w-96 md:left-[0.95rem] md:top-[13.5rem] lg:w-[30rem] lg:left-[1.7rem] lg:top-[18.8rem]"
                 animate={{
                   rotate: [50, 0],
                   opacity: [0, 0, 1],
                   transition: {
-                    duration: 3,
+                    duration: 5,
                   },
                 }}
                 drag

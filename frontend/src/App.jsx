@@ -2,24 +2,29 @@ import { Route, Routes, useLocation } from "react-router-dom";
 import "./App.css";
 import { AnimatePresence } from "framer-motion";
 
-import Home from "./pages/home";
+import Navbar from "./components/Navbar";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Timeline from "./pages/Timeline";
+import Sponsors from "./pages/Sponsors";
+import HowReg from "./pages/HowReg";
+import Contact from "./pages/Contact";
 
 function App() {
   const location = useLocation();
 
   return (
     <div className="App">
-      <AnimatePresence
-        exitBeforeEnter
-        onExitComplete={() => setShowModal(false)}
-      >
+      <AnimatePresence exitBeforeEnter>
         <Routes location={location} key={location.key}>
-          <Route exact path="/" element={<Home />} />
-          <Route path="/about-event" element={<About />} />
-          <Route path="/timeline-prizes" element={<Timeline />} />
-          <Route path="/past-sponsors" element={<Sponsors />} />
-          <Route path="/how-to-register" element={<HowReg />} />
-          <Route path="/contact-us" element={<Contact />} />
+          <Route path="/">
+            <Route index element={<Home />} />
+            <Route path="/about-event" element={<About />} />
+            <Route path="/timeline-prizes" element={<Timeline />} />
+            <Route path="/past-sponsors" element={<Sponsors />} />
+            <Route path="/how-to-register" element={<HowReg />} />
+            <Route path="/contact-us" element={<Contact />} />
+          </Route>
         </Routes>
       </AnimatePresence>
     </div>
