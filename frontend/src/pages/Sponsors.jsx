@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 
 import Button from "../components/Button";
-import Default from "../assets/Default.svg";
+import imgHolder from "../assets/imgHolder.svg";
 
 const buttonVarients = {
   hover: {
@@ -47,35 +47,35 @@ const Sponsors = () => {
         <div className="grid place-items-center animate-scroll hover:pause">
           <div className="flex w-[calc(19rem*10)]">
             <div className="slide flex px-4 py-4 items-center">
-              <img src={Default} alt="default" />
+              <img src={imgHolder} alt="default" />
             </div>
             <div className="slide flex px-4 py-4 items-center">
-              <img src={Default} alt="default" />
+              <img src={imgHolder} alt="default" />
             </div>
             <div className="slide flex px-4 py-4 items-center">
-              <img src={Default} alt="default" />
+              <img src={imgHolder} alt="default" />
             </div>
             <div className="slide flex px-4 py-4 items-center">
-              <img src={Default} alt="default" />
+              <img src={imgHolder} alt="default" />
             </div>
             <div className="slide flex px-4 py-4 items-center">
-              <img src={Default} alt="default" />
+              <img src={imgHolder} alt="default" />
             </div>
 
             <div className="slide flex px-4 py-4 items-center">
-              <img src={Default} alt="default" />
+              <img src={imgHolder} alt="default" />
             </div>
             <div className="slide flex px-4 py-4 items-center">
-              <img src={Default} alt="default" />
+              <img src={imgHolder} alt="default" />
             </div>
             <div className="slide flex px-4 py-4 items-center">
-              <img src={Default} alt="default" />
+              <img src={imgHolder} alt="default" />
             </div>
             <div className="slide px-4 py-4 items-center">
-              <img src={Default} alt="default" />
+              <img src={imgHolder} alt="default" />
             </div>
             <div className="slide flex px-4 py-4 items-center">
-              <img src={Default} alt="default" />
+              <img src={imgHolder} alt="default" />
             </div>
           </div>
         </div>

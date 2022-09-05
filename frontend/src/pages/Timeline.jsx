@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 
 import Button from "../components/Button";
-import Default from "../assets/Default.svg";
+import imgHolder from "../assets/imgHolder.svg";
 
 const buttonVarients = {
   hover: {
@@ -53,17 +53,17 @@ const Timeline = () => {
         </p>
         <div className="py-8 flex flex-col md:flex-row lg:flex-row justify-between items-center">
           <img
-            src={Default}
+            src={imgHolder}
             alt="default"
             className="pb-8 md:pr-5 md:w-[80%] lg:pb-0"
           />
           <img
-            src={Default}
+            src={imgHolder}
             alt="default"
             className="pb-8 md:pr-5 md:w-[80%] lg:pb-0"
           />
           <img
-            src={Default}
+            src={imgHolder}
             alt="default"
             className="md:w-[80%] lg:pb-0 hidden lg:block"
           />

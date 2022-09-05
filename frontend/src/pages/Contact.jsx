@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import Button from "../components/Button";
 
-import Logo from "./../assets/images/mainlogo.png";
+import logo from "./../assets/images/imgHolder.png";
 
 const buttonVarients = {
   hover: {
@@ -46,7 +46,7 @@ const HowReg = () => {
         <h1 className="py-5 font-bold">Got Questions? Get in touch</h1>
         <div className="flex flex-col md:flex-row">
           <div className="py-12">
-            <img src={Logo} alt="codechefLogo" className="w-52 inline pb-5" />
+            <img src={logo} alt="codechefLogo" className="w-52 inline pb-5" />
             <p className="text-2xl max-w-xl text-start">
               Cook off 6.0 will test your speed, ability and knowledge. You will
               also get a chance to compete with some of the best coders on a
