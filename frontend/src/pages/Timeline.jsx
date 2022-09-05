@@ -43,31 +43,10 @@ const Timeline = () => {
       exit="exit"
     >
       <div>
-        <h1 className="py-5 font-bold">Timeline & Prizes</h1>
-        <p className="py-10 font-normal sm:leading-10 lg:leading-8 ">
-          Ever wondered what it takes to be a good programmer? Here's a golden
-          opportunity for you to find out for yourself and apply them in real
-          time. CodeChef-VIT brings to you Cook-Off 7.0: an intense competitive
-          coding event that will leave you hooked to the world of problem
-          solving and algorithms.
+        <h1 className="py-5 font-bold">Prizes</h1>
+        <p className="py-20 pb-72 font-normal sm:leading-10 lg:leading-8 text-5xl lg:mx-52">
+          To be announced soon....
         </p>
-        <div className="py-8 flex flex-col md:flex-row lg:flex-row justify-between items-center">
-          <img
-            src={imgHolder}
-            alt="default"
-            className="pb-8 md:pr-5 md:w-[80%] lg:pb-0"
-          />
-          <img
-            src={imgHolder}
-            alt="default"
-            className="pb-8 md:pr-5 md:w-[80%] lg:pb-0"
-          />
-          <img
-            src={imgHolder}
-            alt="default"
-            className="md:w-[80%] lg:pb-0 hidden lg:block"
-          />
-        </div>
       </div>
 
       <div className="flex py-6 justify-between ">

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 
 import Button from "../components/Button";
-import imgHolder from "../assets/imgHolder.svg";
+import imgHolder from "../assets/sponsorships/allSponsors.png";
 
 const buttonVarients = {
   hover: {
@@ -43,50 +43,18 @@ const Sponsors = () => {
       exit="exit"
     >
       <div>
-        <h1 className="py-3 pb-32 font-bold">Our Past Sponsors</h1>
-        <div className="grid place-items-center animate-scroll hover:pause">
-          <div className="flex w-[calc(19rem*10)]">
-            <div className="slide flex px-4 py-4 items-center">
-              <img src={imgHolder} alt="default" />
-            </div>
-            <div className="slide flex px-4 py-4 items-center">
-              <img src={imgHolder} alt="default" />
-            </div>
-            <div className="slide flex px-4 py-4 items-center">
-              <img src={imgHolder} alt="default" />
-            </div>
-            <div className="slide flex px-4 py-4 items-center">
-              <img src={imgHolder} alt="default" />
-            </div>
-            <div className="slide flex px-4 py-4 items-center">
-              <img src={imgHolder} alt="default" />
-            </div>
-
-            <div className="slide flex px-4 py-4 items-center">
-              <img src={imgHolder} alt="default" />
-            </div>
-            <div className="slide flex px-4 py-4 items-center">
-              <img src={imgHolder} alt="default" />
-            </div>
-            <div className="slide flex px-4 py-4 items-center">
-              <img src={imgHolder} alt="default" />
-            </div>
-            <div className="slide px-4 py-4 items-center">
-              <img src={imgHolder} alt="default" />
-            </div>
-            <div className="slide flex px-4 py-4 items-center">
-              <img src={imgHolder} alt="default" />
-            </div>
-          </div>
+        <h1 className=" py-5  md:font-bold lg:font-bold">Our Past Sponsors</h1>
+        <div className="items-center py-32 md:py-0 lg:py-0">
+          <img src={imgHolder} alt="default" className="lg:pl-30" />
         </div>
       </div>
 
-      <div className="flex pt-32 py-6 justify-between ">
+      <div className="flex py-6 justify-between ">
         <Link to="/timeline-prizes">
-          <Button content={"Timeline"} />
+          <Button content={"Prizes"} />
         </Link>
         <Link to="/how-to-register">
-          <Button content={"How To Register & FAQs"} />
+          <Button content={"How to Register"} />
         </Link>
       </div>
     </motion.div>

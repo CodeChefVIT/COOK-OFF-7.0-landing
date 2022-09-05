@@ -9,8 +9,8 @@ import fork from "../assets/fork.svg";
 
 const Plate = () => {
   return (
-    <div>
-      <div className="md:py-[-5rem]">
+    <div className="overflow-x-hidden md:overflow-x-visible	lg:overflow-x-visible">
+      <div className="md:py-[-5rem] ">
         <motion.img
           src="https://www.codechefvit.com/Images/codechef_logo_1.svg"
           alt="codechef"
