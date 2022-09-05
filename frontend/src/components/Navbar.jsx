@@ -1,7 +1,7 @@
 import { useState } from "react";
 
-import Close from "./../assets/Close.svg";
-import Menu from "./../assets/Menu.svg";
+import Close from "./../assets/close.svg";
+import Menu from "./../assets/menu.svg";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);

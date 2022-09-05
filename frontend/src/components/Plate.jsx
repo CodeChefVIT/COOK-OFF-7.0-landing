@@ -1,11 +1,11 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-import Thali from "../assets/Plate.svg";
-import Logo from "../assets/Logo.svg";
-import Cookoff from "../assets/Cookoff.svg";
-import Knife from "../assets/Knife.svg";
-import Fork from "../assets/Fork.svg";
+import thali from "../assets/plate.svg";
+import logo from "../assets/logo.svg";
+import cookoff from "../assets/cookoff.svg";
+import knife from "../assets/knife.svg";
+import fork from "../assets/fork.svg";
 
 const Plate = () => {
   return (
@@ -26,7 +26,7 @@ const Plate = () => {
         <div className="flex justify-between items-center">
           <div className="flex relative">
             <motion.img
-              src={Knife}
+              src={knife}
               alt="knife"
               className="w-4 translate-y-40  z-30 absolute left-[6.9rem] -top-[1.35rem] md:w-7 md:left-[11.5rem] md:-top-[5.5rem] lg:w-[3rem] lg:left-[15.55rem] lg:-top-[7.1rem]"
               animate={{
@@ -41,13 +41,13 @@ const Plate = () => {
             ></motion.img>
             <div className="flex justify-items-center relative px-3">
               <img
-                src={Thali}
-                alt="Thali"
+                src={thali}
+                alt="thali"
                 className="pt-40 -translate-y-10 w-52 z-10 md:w-96 lg:w-[32rem] md:pt-20 lg:pt-20 "
               />
               <motion.img
-                src={Logo}
-                alt="Thali"
+                src={logo}
+                alt="thali"
                 className="w-28 absolute z-20 bottom-20 left-[4.1rem] md:w-44 md:left-[7.5rem] md:top-[6.8rem] lg:w-[15rem] lg:left-[9.5rem] lg:top-[7.5rem]"
                 animate={{
                   rotate: [50, 0],
@@ -77,7 +77,7 @@ const Plate = () => {
                 }}
               />
               <motion.img
-                src={Cookoff}
+                src={cookoff}
                 alt="cookoff"
                 className="w-56 absolute z-20 bottom-[6.6rem] left-[0.4rem] md:w-96 md:left-[0.95rem] md:top-[13.5rem] lg:w-[30rem] lg:left-[1.7rem] lg:top-[18.8rem]"
                 animate={{
@@ -97,7 +97,7 @@ const Plate = () => {
               />
             </div>
             <motion.img
-              src={Fork}
+              src={fork}
               alt="fork"
               className="w-[1.7rem] translate-y-44 -rotate-[50deg] z-30 absolute right-[6.2rem] -top-10 md:w-[3rem] md:right-[10.8rem] md:-top-[6.4rem] lg:w-[5.05rem] lg:right-[14.5rem] lg:-top-[8rem]"
               animate={{
