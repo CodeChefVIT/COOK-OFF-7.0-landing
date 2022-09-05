@@ -44,7 +44,7 @@ const Sponsors = () => {
     >
       <div>
         <h1 className=" py-5  md:font-bold lg:font-bold">Our Past Sponsors</h1>
-        <div className="items-center">
+        <div className="items-center py-32 md:py-0 lg:py-0">
           <img src={imgHolder} alt="default" className="lg:pl-30" />
         </div>
       </div>

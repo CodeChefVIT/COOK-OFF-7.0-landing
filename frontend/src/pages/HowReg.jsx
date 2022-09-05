@@ -42,6 +42,9 @@ const HowReg = () => {
     >
       <div>
         <h1 className="py-5 font-bold">How To Register and FAQs</h1>
+        <p className="py-20 pb-72 font-normal sm:leading-10 lg:leading-8 text-5xl lg:mx-52">
+          To be updated soon....
+        </p>
       </div>
 
       <div className="flex py-6 justify-between ">
