@@ -48,14 +48,15 @@ const HowReg = () => {
           <div className="py-12">
             <img src={logo} alt="codechefLogo" className="w-52 inline pb-5" />
             <p className="text-2xl max-w-xl text-start">
-              Cook off 6.0 will test your speed, ability and knowledge. You will
+              Cook Off 7.0 will test your speed, ability and knowledge. You will
               also get a chance to compete with some of the best coders on a
               global platform.
             </p>
           </div>
           <div className="py-12">
             <h1 className="py-5 font-bold">Contact</h1>
-            <p className="text-2xl">Phone: 7014531554</p>
+            <p className="text-2xl">Thaman (Chairperson)</p>
+            <p className="text-2xl">Phone: +91-9880093000</p>
             <p className="text-2xl">Email: codechefvit@gmail.com</p>
           </div>
           <div className="py-12">
