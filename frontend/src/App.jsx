@@ -17,14 +17,14 @@ function App() {
     <div className="App">
       <AnimatePresence exitBeforeEnter>
         <Routes location={location} key={location.key}>
-          <Route path="/">
-            <Route index element={<Home />} />
-            <Route path="/about-event" element={<About />} />
-            <Route path="/timeline-prizes" element={<Timeline />} />
-            <Route path="/past-sponsors" element={<Sponsors />} />
-            <Route path="/how-to-register" element={<HowReg />} />
-            <Route path="/contact-us" element={<Contact />} />
-          </Route>
+          {/* <Route path="/"> */}
+          <Route index element={<Home />} />
+          <Route path="/about-event" element={<About />} />
+          <Route path="/timeline-prizes" element={<Timeline />} />
+          <Route path="/past-sponsors" element={<Sponsors />} />
+          <Route path="/how-to-register" element={<HowReg />} />
+          <Route path="/contact-us" element={<Contact />} />
+          {/*</Route>*/}
         </Routes>
       </AnimatePresence>
     </div>
