@@ -78,25 +78,25 @@ const HowReg = () => {
             <h1 className="py-5 font-bold">Follow Us</h1>
             <div className="flex flex-row justify-center items-center">
               <a href="https://medium.com/codechef-vit" target="_blank">
-                <img src={medium} className="pr-4 lg:scale-100" />
+                <img src={medium} className="pr-4 scale-50 lg:scale-75" />
               </a>
               <a href="https://twitter.com/codechefvit" target="_blank">
-                <img src={twitter} className=" pr-4 lg:scale-150" />
+                <img src={twitter} className=" pr-2 lg:scale-150" />
               </a>
               <a href="https://youtube.com/codechef-vit" target="_blank">
-                <img src={youtube} className=" lg:scale-75" />
+                <img src={youtube} className="pr-4 scale-50 lg:scale-75" />
               </a>
               <a
                 href="https://www.linkedin.com/company/codechef-vit-chapter"
                 target="_blank"
               >
-                <img src={linkedin} className=" pr-4 lg:scale-150" />
+                <img src={linkedin} className=" pr-2 lg:scale-150" />
               </a>
               <a href="https://instagram.com/codechefvit" target="_blank">
-                <img src={instagram} className="pr-4 lg:scale-100" />
+                <img src={instagram} className="pr-4 scale-50 lg:scale-75" />
               </a>
               <a href="https://facebook.com/codechef-vit" target="_blank">
-                <img src={facebook} className=" pr-4 lg:scale-100" />
+                <img src={facebook} className=" pr-4 lg:scale-150" />
               </a>
             </div>
           </div>
