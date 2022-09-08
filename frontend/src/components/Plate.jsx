@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 import thali from "../assets/plate.svg";
 import logo from "../assets/logo.svg";
-import cookoff from "../assets/cookoff.svg";
+import cookoff from "../assets/cookOff.svg";
 import knife from "../assets/knife.svg";
 import fork from "../assets/fork.svg";
 

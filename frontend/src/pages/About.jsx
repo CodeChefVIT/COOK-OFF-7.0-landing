@@ -7,18 +7,6 @@ import about1 from "../assets/images/about1.jpg";
 import about2 from "../assets/images/about2.jpg";
 import about3 from "../assets/images/about3.jpeg";
 
-const buttonVarients = {
-  hover: {
-    scale: 1.1,
-    textShadow: "0px 0px 8px rgb(255,255,255)",
-    boxShadow: "0px 0px 8px rgb(255,255,255)",
-    transition: {
-      yoyo: Infinity,
-      duration: 0.3,
-    },
-  },
-};
-
 const containerVarients = {
   hidden: {
     opacity: 0,

@@ -5,18 +5,6 @@ import { motion } from "framer-motion";
 import Button from "../components/Button";
 import imgHolder from "../assets/sponsorships/allSponsors.png";
 
-const buttonVarients = {
-  hover: {
-    scale: 1.1,
-    textShadow: "0px 0px 8px rgb(255,255,255)",
-    boxShadow: "0px 0px 8px rgb(255,255,255)",
-    transition: {
-      yoyo: Infinity,
-      duration: 0.3,
-    },
-  },
-};
-
 const containerVarients = {
   hidden: {
     opacity: 0,

@@ -2,7 +2,6 @@ import { Route, Routes, useLocation } from "react-router-dom";
 import "./App.css";
 import { AnimatePresence } from "framer-motion";
 
-import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Timeline from "./pages/Timeline";

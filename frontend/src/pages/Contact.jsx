@@ -1,28 +1,18 @@
-import React, { useState } from "react";
+/* eslint-disable jsx-a11y/alt-text */
+/* eslint-disable react/jsx-no-target-blank */
+import React from "react";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import Button from "../components/Button";
 
 import logo from "./../assets/images/imgHolder.png";
 
-import facebook from "./../assets/icons/facebook.svg";
 import youtube from "./../assets/icons/youtube.svg";
 import instagram from "./../assets/icons/instagram.svg";
 import linkedin from "./../assets/icons/linkedin.svg";
 import medium from "./../assets/icons/medium.svg";
 import twitter from "./../assets/icons/twitter.svg";
-
-const buttonVarients = {
-  hover: {
-    scale: 1.1,
-    textShadow: "0px 0px 8px rgb(255,255,255)",
-    boxShadow: "0px 0px 8px rgb(255,255,255)",
-    transition: {
-      yoyo: Infinity,
-      duration: 0.3,
-    },
-  },
-};
+import github from "./../assets/icons/github.svg";
 
 const containerVarients = {
   hidden: {
@@ -95,8 +85,8 @@ const HowReg = () => {
               <a href="https://instagram.com/codechefvit" target="_blank">
                 <img src={instagram} className="pr-4 scale-50 lg:scale-75" />
               </a>
-              <a href="https://facebook.com/codechef-vit" target="_blank">
-                <img src={facebook} className=" pr-4 lg:scale-150" />
+              <a href="https://github.com/CodeChefVIT" target="_blank">
+                <img src={github} className=" scale-75 lgpr-4 lg:scale-100" />
               </a>
             </div>
           </div>
