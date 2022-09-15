@@ -33,8 +33,19 @@ const About = () => {
       exit="exit"
     >
       <div>
-        <h1 className="py-5 font-bold">About The Event</h1>
-        <p className="py-10 font-normal sm:leading-10 lg:leading-10 lg:text-xl">
+        <div className="flex-col flex md:flex-row lg:flex-row items-center">
+          <a href="/">
+            <img
+              src="https://www.codechefvit.com/Images/codechef_logo_1.svg"
+              alt="codechef"
+              className="block"
+            />
+          </a>
+          <h1 className="py-5 font-bold text-[#8CB411] font-mudclaw lg:ml-64">
+            About The Event
+          </h1>
+        </div>
+        <p className="py-10 font-normal sm:leading-10 lg:leading-10 lg:text-xl font-ibm">
           Ever wondered what it takes to be a good programmer? Here's a golden
           opportunity for you to find out for yourself and apply them in real
           time. CodeChef-VIT brings to you Cook-Off 7.0: an intense competitive
@@ -45,22 +56,22 @@ const About = () => {
           <img
             src={about1}
             alt="default"
-            className="pb-8 md:pr-5 md:w-[80%] lg:pb-0 rounded-xl"
+            className="pb-8 md:pr-5 md:w-[80%] lg:pb-0"
           />
           <img
             src={about2}
             alt="default"
-            className="pb-8 md:pr-5 md:w-[80%] lg:pb-0 rounded-md"
+            className="pb-8 md:pr-5 md:w-[80%] lg:pb-0"
           />
           <img
             src={about3}
             alt="default"
-            className="md:w-[80%] lg:pb-0 hidden lg:block rounded-lg"
+            className="md:w-[80%] lg:pb-0 lg:block"
           />
         </div>
       </div>
 
-      <div className="flex py-6 justify-between ">
+      <div className="flex py-6 justify-between">
         <Link to="/">
           <Button content={"Home"} />
         </Link>

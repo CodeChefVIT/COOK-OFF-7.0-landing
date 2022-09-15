@@ -8,3 +8,8 @@
 body {
   overflow-x: hidden;
 }
+
+.font-face-mudclaw {
+  font-family: "MUDCLAW";
+  font-weight: 200;
+}

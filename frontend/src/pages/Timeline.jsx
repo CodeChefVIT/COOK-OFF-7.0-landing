@@ -30,8 +30,19 @@ const Timeline = () => {
       exit="exit"
     >
       <div>
-        <h1 className="py-5 font-bold">Prizes</h1>
-        <p className="py-20 pb-72 font-normal sm:leading-10 lg:leading-8 text-5xl lg:mx-52">
+        <div className="flex-col flex md:flex-row lg:flex-row items-center">
+          <a href="/">
+            <img
+              src="https://www.codechefvit.com/Images/codechef_logo_1.svg"
+              alt="codechef"
+              className="block"
+            />
+          </a>
+          <h1 className="py-5 font-bold text-[#8CB411] font-mudclaw lg:ml-64">
+            Prizes
+          </h1>
+        </div>
+        <p className="py-20 pb-72 font-normal sm:leading-10 lg:leading-8 text-5xl lg:mx-52 font-ibm">
           To be announced soon....
         </p>
       </div>
@@ -41,7 +52,7 @@ const Timeline = () => {
           <Button content={"About Event"} />
         </Link>
         <Link to="/past-sponsors">
-          <Button content={"Past Sponsors"} />
+          <Button content={"Sponsors"} />
         </Link>
       </div>
     </motion.div>

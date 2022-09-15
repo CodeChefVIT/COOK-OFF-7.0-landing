@@ -15,7 +15,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: #111;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -39,6 +39,8 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  background-color: #111;
+  overflow-x: hidden !important;
 }
 
 h1 {
@@ -53,7 +55,7 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: #111;
   cursor: pointer;
   transition: border-color 0.25s;
 }
@@ -80,12 +82,12 @@ button:focus-visible {
 
 ::-webkit-scrollbar {
   width: 0.5rem;
-  background: #242424;
+  background-color: #111;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #242424;
+  background: #111;
   border-radius: 0.6rem;
   z-index: -99;
 }
@@ -94,4 +96,11 @@ button:focus-visible {
 ::-webkit-scrollbar-thumb {
   background: #e3e3e3;
   border-radius: 1rem;
+}
+
+@font-face {
+  font-family: "mudclaw";
+  src: local("Mudclaw"),
+    url("./../src/assets/fonts/Mudclaw/MUDCLAW.ttf") format("truetype");
+  font-weight: bold;
 }

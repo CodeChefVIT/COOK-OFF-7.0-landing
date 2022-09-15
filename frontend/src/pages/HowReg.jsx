@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import Button from "../components/Button";
+import Example from "./../components/Accordian";
 
 const containerVarients = {
   hidden: {
@@ -29,10 +30,19 @@ const HowReg = () => {
       exit="exit"
     >
       <div>
-        <h1 className="py-5 font-bold">How To Register and FAQs</h1>
-        <p className="py-20 pb-72 font-normal sm:leading-10 lg:leading-8 text-5xl lg:mx-52">
-          To be updated soon....
-        </p>
+        <div className="flex-col flex md:flex-row lg:flex-row items-center">
+          <a href="/">
+            <img
+              src="https://www.codechefvit.com/Images/codechef_logo_1.svg"
+              alt="codechef"
+              className="block"
+            />
+          </a>
+          <h1 className="py-5 font-bold text-[#8CB411] font-mudclaw lg:ml-32">
+            How to register and FAQs
+          </h1>
+        </div>
+        <Example />
       </div>
 
       <div className="flex py-6 justify-between ">

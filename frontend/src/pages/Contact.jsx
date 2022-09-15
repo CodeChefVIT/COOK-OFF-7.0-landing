@@ -40,10 +40,21 @@ const HowReg = () => {
       exit="exit"
     >
       <div>
-        <h1 className="py-5 font-bold">Got Questions? Get in touch</h1>
+        <div className="flex-col flex md:flex-row lg:flex-row items-center">
+          <a href="/">
+            <img
+              src="https://www.codechefvit.com/Images/codechef_logo_1.svg"
+              alt="codechef"
+              className="block"
+            />
+          </a>
+          <h1 className="py-5 font-bold text-[#8CB411] font-mudclaw lg:ml-32">
+            Got Questions? Get in touch
+          </h1>
+        </div>
         <div className="hidden py-12 mx-56 md:inline-block lg:inline-block">
           <img src={logo} alt="codechefLogo" className="w-52 inline pb-5" />
-          <p className="text-2xl max-w-xl text-center">
+          <p className="text-2xl max-w-xl text-center font-face-ibm font-ibm">
             Cook Off 7.0 will test your speed, ability and knowledge. You will
             also get a chance to compete with some of the best coders on a
             global platform.
@@ -52,41 +63,43 @@ const HowReg = () => {
         <div className="flex flex-col md:flex-row">
           <div className="py-12 lg:mx-10 md:hidden lg:hidden">
             <img src={logo} alt="codechefLogo" className="w-52 inline pb-5" />
-            <p className="text-2xl max-w-xl">
+            <p className="text-2xl max-w-xl font-ibm">
               Cook Off 7.0 will test your speed, ability and knowledge. You will
               also get a chance to compete with some of the best coders on a
               global platform.
             </p>
           </div>
           <div className="py-12">
-            <h1 className="py-5 font-bold">Contact</h1>
-            <p className="text-2xl">Thaman (Chairperson)</p>
-            <p className="text-2xl">Phone: +91-9880093000</p>
-            <p className="text-2xl">Email: codechefvit@gmail.com</p>
+            <h1 className="py-5 font-bold text-[#8CB411] font-ibm">Contact</h1>
+            <p className="text-2xl font-ibm">Thaman (Chairperson)</p>
+            <p className="text-2xl font-ibm">Phone: +91-9880093000</p>
+            <p className="text-2xl font-ibm">Email: codechefvit@gmail.com</p>
           </div>
           <div className="py-12 md:pl-32 lg:pl-[20rem]">
-            <h1 className="py-5 font-bold">Follow Us</h1>
+            <h1 className="py-5 font-bold text-[#8CB411] font-ibm">
+              Follow Us
+            </h1>
             <div className="flex flex-row justify-center items-center">
               <a href="https://medium.com/codechef-vit" target="_blank">
-                <img src={medium} className="pr-4 scale-50 lg:scale-75" />
+                <img src={medium} className="pr-4" />
               </a>
               <a href="https://twitter.com/codechefvit" target="_blank">
-                <img src={twitter} className=" pr-2 lg:scale-150" />
+                <img src={twitter} className=" pr-4" />
               </a>
               <a href="https://youtube.com/codechef-vit" target="_blank">
-                <img src={youtube} className="pr-4 scale-50 lg:scale-75" />
+                <img src={youtube} className="pr-4" />
               </a>
               <a
                 href="https://www.linkedin.com/company/codechef-vit-chapter"
                 target="_blank"
               >
-                <img src={linkedin} className=" pr-2 lg:scale-150" />
+                <img src={linkedin} className=" pr-4" />
               </a>
               <a href="https://instagram.com/codechefvit" target="_blank">
-                <img src={instagram} className="pr-4 scale-50 lg:scale-75" />
+                <img src={instagram} className="pr-4" />
               </a>
               <a href="https://github.com/CodeChefVIT" target="_blank">
-                <img src={github} className=" scale-75 lgpr-4 lg:scale-100" />
+                <img src={github} className=" lg pr-4" />
               </a>
             </div>
           </div>
