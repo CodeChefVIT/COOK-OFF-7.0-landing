@@ -27,13 +27,13 @@ const Banner = () => {
 
       <div className="flex flex-row border-4	 border-black  justify-between items-center my-4 -rotate-[10deg] w-[300vw] -translate-x-[60rem] md:-translate-x-[70rem] lg:-translate-x-[150rem] bg-white">
         <Marquee gradient={false} speed={200}>
-          <h1 className="font-mudclaw text-4xl px-20">COOK OFF 8.0</h1>
+          <h1 className="font-mudclaw text-4xl px-20">COOK OFF 7.0</h1>
           <img src={b3} alt="" />
           <h1 className="font-mudclaw text-4xl px-20">CodeChef</h1>
           <img src={b4} alt="" />
           <h1 className="font-mudclaw text-4xl px-20">Secret Message</h1>
 
-          <h1 className="font-mudclaw text-4xl pl-96">COOK OFF 8.0</h1>
+          <h1 className="font-mudclaw text-4xl pl-96">COOK OFF 7.0</h1>
           <img src={b3} alt="" />
           <h1 className="font-mudclaw text-4xl px-20">CodeChef</h1>
           <img src={b4} alt="" />
