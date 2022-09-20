@@ -9,7 +9,7 @@ import b4 from "./../../Images/b4.svg";
 const Banner = () => {
   return (
     <div className="py-36">
-      <div className="flex flex-row border-4 border-black  justify-between items-center my-4 rotate-[10deg] w-[300vw] -translate-x-[60rem] md:-translate-x-[100rem] lg:-translate-x-[100rem] bg-white">
+      <div className="flex flex-row border-4 border-black  justify-between items-center my-4 rotate-[10deg] w-[300vw] -translate-x-[40rem] md:-translate-x-[100rem] lg:-translate-x-[100rem] bg-white">
         <Marquee gradient={false} speed={200}>
           <h1 className="font-mudclaw text-4xl px-20">Don't Miss out</h1>
           <img src={b1} alt="" />
@@ -25,7 +25,7 @@ const Banner = () => {
         </Marquee>
       </div>
 
-      <div className="flex flex-row border-4	 border-black  justify-between items-center my-4 -rotate-[10deg] w-[300vw] -translate-x-[60rem] md:-translate-x-[70rem] lg:-translate-x-[150rem] bg-white">
+      <div className="flex flex-row border-4	 border-black  justify-between items-center my-4 -rotate-[10deg] w-[300vw] -translate-x-[30rem] md:-translate-x-[70rem] lg:-translate-x-[150rem] bg-white">
         <Marquee gradient={false} speed={200}>
           <h1 className="font-mudclaw text-4xl px-20">COOK OFF 7.0</h1>
           <img src={b3} alt="" />
