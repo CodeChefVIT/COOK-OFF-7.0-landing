@@ -8,13 +8,12 @@ const About = () => {
         <div className={styles.title_heading_container}>
           <h2 className="font-mabry text-3xl">What's Cookoff?</h2>
           <p className="font-mabry">
-            Tech talks is an offline round table discussion that promises an
-            insight into the lives and careers of leading figures in the
-            industry. Talking about emerging technologies, this is not just any
-            guest lecture, but an interactive session providing students with a
-            broader perspective on each domain covered. With speakers from
-            different domains, blending perfectly together, we hope to surpass
-            the success achieved in Tech talks 2.0.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+            labore et dolore magna aliqua.
           </p>
         </div>
         <div>

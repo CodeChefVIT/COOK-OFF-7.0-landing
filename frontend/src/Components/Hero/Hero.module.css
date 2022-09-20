@@ -95,6 +95,37 @@
   font-weight: 800;
 }
 
+.hero_button1 {
+  width: fit-content;
+  padding: 1em 2em;
+  box-shadow: 4px 4px 0px #111;
+  border-radius: 0;
+  background-color: #fdff7c;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+}
+
+.hero_button2 {
+  width: fit-content;
+  padding: 1em 2em;
+  box-shadow: 4px 4px 0px #111;
+  border-radius: 0;
+  background-color: #82d965;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+}
+.hero_button3 {
+  width: fit-content;
+  padding: 1em 2em;
+  box-shadow: 4px 4px 0px #111;
+  border-radius: 0;
+  background-color: #e35b5b;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+}
 .title_heading_container {
   display: flex;
   flex-direction: column;

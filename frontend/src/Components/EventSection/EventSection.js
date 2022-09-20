@@ -21,7 +21,11 @@ const EventSection = () => {
   return (
     <div>
       <div>
-        <img src={Banner} className="w-[100vw]" alt="" />
+        <img
+          src={Banner}
+          className="scale-150 md:scale-100 lg:scale-100 md:w-[100vw] lg:w-[100vw]"
+          alt=""
+        />
       </div>
 
       <div className={styles.container} id="timer">
@@ -49,7 +53,7 @@ const EventSection = () => {
           </div>
         </div>
 
-        <img src={EventBg} alt="About Image here" />
+        <img src={EventBg} alt="" />
       </div>
     </div>
   );
