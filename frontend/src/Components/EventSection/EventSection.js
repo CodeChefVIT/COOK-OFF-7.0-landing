@@ -1,6 +1,5 @@
 import styles from "./EventSection.module.css";
 import EventBg from "../../Images/EventBg.png";
-import Banner from "../../Images/SpeakersBanner.svg";
 
 const EventSection = () => {
   var countDownDate = new Date("Oct 2, 2022 08:00:00").getTime();
@@ -20,14 +19,6 @@ const EventSection = () => {
 
   return (
     <div>
-      <div>
-        <img
-          src={Banner}
-          className="scale-150 md:scale-100 lg:scale-100 md:w-[100vw] lg:w-[100vw]"
-          alt=""
-        />
-      </div>
-
       <div className={styles.container} id="timer">
         <h1>EVENT STARTS IN</h1>
         <div className={styles.boxes_container}>
