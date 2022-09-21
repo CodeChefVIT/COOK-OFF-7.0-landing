@@ -18,10 +18,10 @@ const Speakers = () => {
   return (
     <div className={styles.main_container}>
       <div className={styles.banner_bg}></div>
-      <div className={styles.container}>
+      <div className={styles.container} id="speakers">
         <h1 className="font-mudclaw text-center text-6xl">Prizes</h1>
         <div className={styles.container_row_1}>
-          <div className={styles.box_main_container} id="speakers">
+          <div className={styles.box_main_container}>
             <div className={styles.box_main_top}>
               <div className={styles.box_main_green_button}></div>
               <div className={styles.box_main_red_button}></div>
