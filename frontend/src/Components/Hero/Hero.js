@@ -32,14 +32,14 @@ const Landing = () => {
         <div className={styles.container}>
           <div className={styles.content_container}>
             <div className={styles.title_heading_container}>
-              <h1 className="translate-x-14 pt-8">COOK OFF</h1>
-              <p className="translate-x-14 font-mono">
+              <h1 className="translate-x-14 -translate-y-14">COOK OFF</h1>
+              <p className="translate-x-14 font-mono -translate-y-14">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                 enim ad minim veniam
               </p>
             </div>
-            <div className="translate-x-14">
+            <div className="translate-x-14 -translate-y-14">
               <button className={styles.hero_button}>Register Now!</button>
             </div>
 
