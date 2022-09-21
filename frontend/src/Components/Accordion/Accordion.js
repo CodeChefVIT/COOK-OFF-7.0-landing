@@ -50,7 +50,7 @@ export default function CustomizedAccordions() {
   };
 
   return (
-    <div className="p-5 md:p-20 lg:p-20">
+    <div className="p-5 md:p-20 lg:p-20" id="faqs">
       <h1 className="font-mudclaw text-center text-6xl pb-10">
         Here are some FAQs
       </h1>

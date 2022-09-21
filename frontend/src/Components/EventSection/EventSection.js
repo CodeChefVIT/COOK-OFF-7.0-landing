@@ -26,21 +26,21 @@ const EventSection = () => {
             <div className={styles.box1}>
               <h1>{days}</h1>
             </div>
-            <h1>Days</h1>
+            <h1 className="font-semibold">Days</h1>
           </div>
 
           <div className={styles.box_sub_container}>
             <div className={styles.box2}>
               <h1>{hours}</h1>
             </div>
-            <h1>Hours</h1>
+            <h1 className="font-semibold">Hours</h1>
           </div>
 
           <div className={styles.box_sub_container}>
             <div className={styles.box3}>
               <h1>{minutes}</h1>
             </div>
-            <h1>Minutes</h1>
+            <h1 className="font-semibold">Minutes</h1>
           </div>
         </div>
 
