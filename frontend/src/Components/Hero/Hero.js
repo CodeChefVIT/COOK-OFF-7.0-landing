@@ -60,11 +60,11 @@ const Landing = () => {
             <img
               src={HeroImage}
               alt="HeroImage"
-              className="h-[90vh] -translate-y-9 translate-x-56 z-10"
+              className="h-[90vh] -translate-y-9 translate-x-56 z-10 hidden lg:block"
             />
             <motion.img
               src={Hat1}
-              className="hidden md:block lg:block w-64 z-30 h-96 -translate-x-96 -translate-y-44"
+              className="hidden md:hidden lg:block w-64 z-30 h-96 -translate-x-96 -translate-y-44"
               animate={{
                 x: [-220, -196],
                 y: [300, -50, 300],
@@ -79,7 +79,7 @@ const Landing = () => {
             />
             <motion.img
               src={Hat2}
-              className="hidden md:block lg:block w-64 h-96 z-30 -translate-x-[32rem] translate-y-52"
+              className="hidden md:hidden lg:block w-64 h-96 z-30 -translate-x-[32rem] translate-y-52"
               animate={{
                 x: [-700, -700],
                 y: [-50, 300, -50],
