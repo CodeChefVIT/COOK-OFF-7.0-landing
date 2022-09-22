@@ -29,6 +29,15 @@ html {
   scroll-behavior: smooth;
 }
 
+.btn {
+  width: fit-content;
+  padding: 1em 2em;
+  box-shadow: 4px 4px 0px #111;
+  border: 4px solid black;
+  border-radius: 0;
+  font-weight: 800;
+}
+
 ::-webkit-scrollbar {
   width: 0.5rem;
   background-color: #e3e3e3;
@@ -43,8 +52,11 @@ html {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgb(11, 198, 255);
+  background: #615eff;
   border-radius: 1rem;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #7a60ff;
 }
 
 @font-face {

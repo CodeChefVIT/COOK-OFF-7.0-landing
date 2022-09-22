@@ -58,9 +58,13 @@ export default function CustomizedAccordions() {
         expanded={expanded === "panel1"}
         onChange={handleChange("panel1")}
       >
-        <AccordionSummary aria-controls="panel1d-content" id="panel1d-header">
-          <Typography>What is Cook-Off?</Typography>
-        </AccordionSummary>
+        <div className="">
+          <AccordionSummary aria-controls="panel1d-content" id="panel1d-header">
+            <Typography>
+              <p>What is Cook-Off?</p>
+            </Typography>
+          </AccordionSummary>
+        </div>
         <AccordionDetails>
           <Typography>
             Cook-Off 7.0 is an annual 8 hour long competitive coding contest
