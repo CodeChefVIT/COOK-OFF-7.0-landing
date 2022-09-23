@@ -27,7 +27,7 @@ const Speakers = () => {
     <div className={styles.main_container} id="speakers">
       <div className={styles.banner_bg}></div>
       <div className={styles.container}>
-        <h1>Speakers</h1>
+        <h1>Speaker</h1>
         <div className={styles.container_row_1}>
           <div className={styles.box_main_container}>
             <div className={styles.box_main_top}>

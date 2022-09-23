@@ -15,7 +15,7 @@ const Footer = () => {
       <div className={styles.container}>
         <img src={CodechefLogo} alt="" />
         <div className={styles.social_container}>
-          <h2>Socials</h2>
+          <h2 className="text-3xl pb-6">Socials</h2>
           <div className={styles.social_img}>
             <a href="https://facebook.com/codechefvit" target="_blank">
               <img src={Facebook} alt="" />
@@ -46,15 +46,25 @@ const Footer = () => {
           </div>
         </div>
         <div className={styles.social_container}>
-          <h2>Navigation</h2>
+          <h2 className="text-3xl">Navigation</h2>
           <div className={styles.nav_container}>
             <ul>
               <li>
-                <a href="#about">About</a>
-                <a href="#timer">Timer</a>
-                <a href="#speakers">Prizes</a>
-                <a href="#faqs">FAQs</a>
-                <a href="/">Register</a>
+                <a href="#about">
+                  <p className="text-xl">About</p>
+                </a>
+                <a href="#timer" className="">
+                  <p className="text-xl">Timer</p>
+                </a>
+                <a href="#speakers" className="">
+                  <p className="text-xl">Prizes</p>
+                </a>
+                <a href="#faqs" className="">
+                  <p className="text-xl">FAQs</p>
+                </a>
+                <a href="/" className="">
+                  <p className="text-xl">Register</p>
+                </a>
               </li>
             </ul>
           </div>
