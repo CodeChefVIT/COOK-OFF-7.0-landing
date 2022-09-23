@@ -65,3 +65,10 @@ html {
     url("../src/assets/Mudclaw/MUDCLAW.ttf") format("truetype");
   font-weight: bold;
 }
+
+@font-face {
+  font-family: "MabryPro-Regular";
+  src: local("MabryPro-Regular"),
+    url("../src/assets/MabryPro-Regular/MabryPro-Regular.ttf")
+      format("truetype");
+}

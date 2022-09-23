@@ -2,11 +2,13 @@ import "./App.css";
 import Hero from "./Components/Hero/Hero";
 import About from "./Components/About/About";
 import Speakers from "./Components/Speakers/Speakers";
+import Prizes from "./Components/Prizes/Prizes";
 import EventSection from "./Components/EventSection/EventSection";
 import Accordion from "./Components/Accordion/Accordion";
 import Footer from "./Components/Footer/Footer";
 import Timeline from "./Components/Timeline/Timeline";
 import Banner from "./Components/Banner/Banner";
+import Sponsors from "./Components/Sponsors/Sponsors";
 
 function App() {
   return (
@@ -15,7 +17,9 @@ function App() {
       <About />
       <Banner />
       <EventSection />
+      <Prizes />
       <Speakers />
+      <Sponsors />
       <Timeline />
       <Accordion />
       <Footer />

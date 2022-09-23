@@ -22,17 +22,9 @@
   display: flex;
   flex-direction: column;
   position: relative;
-  padding: 0rem 0 10rem 0;
+  padding: 5rem 0 10rem 0;
   gap: 5rem;
   align-items: center;
-}
-
-.container > h1 {
-  text-align: center;
-  font-size: 3rem;
-  color: #111;
-  font-weight: 800;
-  font-family: "mudclaw";
 }
 
 .container::before {
@@ -40,6 +32,7 @@
   top: 0;
   bottom: 0;
   position: absolute;
+  background: #fdff7c no-repeat;
   height: 100%;
   width: 100%;
   z-index: -1;
@@ -48,14 +41,13 @@
 .container_row_1 {
   display: flex;
   gap: 2rem;
-  width: 70vw;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 0rem 4rem;
 }
 
 .container_row_2 {
   display: flex;
-  gap: 2rem;
+  gap: 7rem;
   justify-self: center;
   padding: 0rem 4rem;
 }
@@ -71,7 +63,7 @@
   box-shadow: 8px 8px 0px black;
   padding: 2em 1em 1em 1em;
   justify-content: center;
-  gap: 0.5rem;
+  gap: 1em;
   position: relative;
 }
 
@@ -107,28 +99,13 @@
 
 .box_main_container > p {
   text-align: center;
-  width: 99%;
+  width: 80%;
   color: black;
 }
 
-.box_main_container h1 {
+.box_main_container > h1 {
   text-align: center;
-  font-size: 1.25em;
-  color: rgb(0, 0, 0);
-}
-
-.title_link_image {
-  display: flex;
-  align-items: center;
-  gap: 0.5em;
-  justify-content: center;
-  position: relative;
-}
-
-.title_link_image > a {
-  position: absolute;
-  right: 0;
-  transform: translateX(16px);
+  color: black;
 }
 
 .box {
@@ -137,23 +114,25 @@
   height: 240px;
   background-color: white;
   border: 2px solid black;
-  display: flex;
-  flex-direction: column;
-  gap: 2.5rem;
 }
 
-.box > h2 {
-  text-align: center;
-  color: #111;
-  font-weight: 800;
-  font-family: "mudclaw";
+.box:nth-child(2) {
+  box-shadow: 8px 8px 0px #bc7100;
+}
+.box:nth-child(1) {
+  box-shadow: 8px 8px 0px #023671;
+}
+.box:nth-child(3) {
+  box-shadow: 8px 8px 0px #be00ff;
+}
+.box:nth-child(4) {
+  box-shadow: 8px 8px 0px white;
 }
 
-.box img,
-.box_main img {
+.box > img,
+.box_main > img {
   width: 100%;
   height: 100%;
-  border: 4px solid #111;
 }
 
 @media only screen and (max-width: 900px) {

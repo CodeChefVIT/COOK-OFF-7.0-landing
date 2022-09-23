@@ -12,17 +12,19 @@ const Landing = () => {
   return (
     <div className={styles.main_container} id="Hero">
       <nav className={styles.navbar_container}>
-        <img src={CookOff} alt="CookOffLogo" />
+        <img src={CookOff} alt="CookOffLogo" className="h-[4.42rem]" />
         <div className={styles.navbar_list_container}>
-          <ul>
-            <li>
+          <ul className="">
+            <li className="hover:bg-[#E486A1]">
               <a href="#about">About</a>
             </li>
-            <li>
+            <li className="hover:bg-[#E486A1] ">
               <a href="#speakers">Prizes</a>
             </li>
-            <li className={styles.Watch_now}>
-              <a href="/">Register Now!</a>
+            <li className="hover:bg-[#E486A1] cursor-pointer">
+              <a href="https://events.vit.ac.in/events/gravitas2022/">
+                Register Now!
+              </a>
             </li>
           </ul>
         </div>
@@ -40,37 +42,26 @@ const Landing = () => {
               </p>
             </div>
             <div className="-translate-y-14">
-              <button className={styles.hero_button}>Register Now!</button>
+              <a href="https://events.vit.ac.in/events/gravitas2022/">
+                <button className={styles.hero_button}>Register Now!</button>
+              </a>
             </div>
-
-            {/*<button className={styles.hero_button1}>
-              <img src={HeroBtn} className="w-8 mr-5" />
-              Coding Related Selling Point 1
-            </button>
-            <button className={styles.hero_button3}>
-              <img src={HeroBtn} className="w-8 mr-5" />
-              Coding Related Selling Point 1
-            </button>
-            <button className={styles.hero_button2}>
-              <img src={HeroBtn} className="w-8 mr-5" />
-              Coding Related Selling Point 1
-  </button>*/}
           </div>
           <div className="flex relative">
             <img
               src={HeroImage}
               alt="HeroImage"
-              className="h-[90vh] -translate-y-9 translate-x-56 z-10 hidden lg:block"
+              className="h-[90vh] -translate-y-9 translate-x-32 z-10 hidden lg:block"
             />
             <motion.img
               src={Hat1}
               className="hidden md:hidden lg:block w-64 z-30 h-96 -translate-x-96 -translate-y-44"
               animate={{
-                x: [-220, -196],
+                x: [-260, -280],
                 y: [300, -50, 300],
                 rotate: [0, -30, 30, 0],
                 transition: {
-                  duration: 3,
+                  duration: 6,
                   repeat: Infinity,
                   repeatType: "reverse",
                 },
@@ -81,11 +72,11 @@ const Landing = () => {
               src={Hat2}
               className="hidden md:hidden lg:block w-64 h-96 z-30 -translate-x-[32rem] translate-y-52"
               animate={{
-                x: [-700, -700],
+                x: [-760, -780],
                 y: [-50, 300, -50],
-                rotate: [0, 30, -30, 0],
+                rotate: [0, 30, 0, -30],
                 transition: {
-                  duration: 3,
+                  duration: 6,
                   repeat: Infinity,
                   repeatType: "reverse",
                 },
