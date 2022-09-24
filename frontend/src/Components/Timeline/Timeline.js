@@ -17,7 +17,7 @@ const Timeline = () => {
     },
     {
       time: "05:30 PM - 06:00 PM",
-      info: "Prize and certificate distribution. Look forward to the surprises we have planned for you!",
+      info: "Closing ceremony. It will include Prize and certificate distribution. Look forward to the surprises we have planned for you!",
     },
   ];
 
