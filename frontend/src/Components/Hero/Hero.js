@@ -36,9 +36,9 @@ const Landing = () => {
             <div className={styles.title_heading_container}>
               <h1 className="-translate-y-14">COOK OFF</h1>
               <p className="font-mono -translate-y-14">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam
+                Roll your sleeves up and get ready to code! CodeChef VIT brings
+                you Cook Off 7.0, our flagship competitive coding event, get
+                ready for the competitive coding event of the year!
               </p>
             </div>
             <div className="-translate-y-14">

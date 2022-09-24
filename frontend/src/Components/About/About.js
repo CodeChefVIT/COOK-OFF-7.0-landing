@@ -8,12 +8,12 @@ const About = () => {
         <div className={styles.title_heading_container}>
           <h2 className="font-mabry text-3xl">What's Cookoff?</h2>
           <p className="font-mabry">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet,
-            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-            labore et dolore magna aliqua.
+            Cook off is CodeChef VIT’s flagship competitive coding event that
+            tests the coding skills of tech enthusiasts across the country. The
+            event provides a platform for participants to develop their
+            competitive coding skills and test their abilities. Cook Off 7.0
+            will be the seventh edition through which we hope to broaden the
+            horizons of the participants.
           </p>
         </div>
         <div>

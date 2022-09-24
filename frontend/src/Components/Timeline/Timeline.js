@@ -5,19 +5,19 @@ const Timeline = () => {
   const arr = [
     {
       time: "10:00 AM - 12:00 PM",
-      info: "This is the first round. This will be conducted on the codechef portal. There will be 7 questions to be solved in 2 hours.",
+      info: "The first round of Cook Off will be conducted on the CodeChef portal. It consists of 7 questions that are to be solved in 2 hours. ",
     },
     {
       time: "01:00 PM - 03:30 PM",
-      info: "This is the second round. This will be conducted on the codechef portal. There will be 7 questions to be solved in 2 hours.",
+      info: "Round 2 consists of 7 questions that are to be solved in 2 hours. This round will be conducted on the CodeChef portal.",
     },
     {
       time: "04:30 AM - 05:30 PM",
-      info: "This is the third round. This will be conducted on a portal specially developed by Codechef-VIT. There will be 3 questions to be solved in 1 hours.",
+      info: "The third round will have 3 questions that are to be solved in 1 hour. This round will take place on a portal specially developed by CodeChef-VIT.",
     },
     {
       time: "05:30 PM - 06:00 PM",
-      info: "This is the formalities section. It involves distribution of prizes and certificates. We also have some surprises for you.",
+      info: "Prize and certificate distribution. Look forward to the surprises we have planned for you!",
     },
   ];
 

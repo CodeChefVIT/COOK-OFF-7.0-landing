@@ -17,7 +17,7 @@ const Speakers = () => {
   // const navigate = useNavigate();
 
   const [desc, setDesc] = useState(
-    "After working in Dubai for 4 years as Technical Product Architect, started his Tech services firm, called Myrl Tech in 2018 and since then, they've worked with multiple Enterprise clients to build SAAS products."
+    "After working as a technical product manager for various companies, he founded Myrl Tech which has built products for prestigious companies like Honda, Mastercard, and many more."
   );
   const [title, setTitle] = useState("Akhil Sharma");
   const [url, setUrl] = useState("https://www.linkedin.com/in/akhilsails/");
