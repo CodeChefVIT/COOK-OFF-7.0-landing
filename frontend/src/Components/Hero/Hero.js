@@ -12,7 +12,7 @@ const Landing = () => {
   return (
     <div className={styles.main_container} id="Hero">
       <nav className={styles.navbar_container}>
-        <img src={CookOff} alt="CookOffLogo" className="h-[4.42rem]" />
+        <img src={CookOff} alt="CookOffLogo" className="h-[100%]" />
         <div className={styles.navbar_list_container}>
           <ul className="">
             <li className="hover:bg-[#E486A1]">

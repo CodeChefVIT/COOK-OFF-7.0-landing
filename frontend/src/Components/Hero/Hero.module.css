@@ -16,8 +16,8 @@
   display: flex;
   justify-content: space-between;
   height: 9vh;
-  border-bottom: 1px solid #111;
-  border-top: 1px solid #111;
+  box-shadow: 0px 0px 0px 1px #111 inset;
+  border-top: -1px solid #111;
   position: relative;
 }
 
