@@ -1,29 +1,28 @@
-import { Route, Routes, useLocation } from "react-router-dom";
 import "./App.css";
-import { AnimatePresence } from "framer-motion";
-
-import Home from "./pages/Home";
-import About from "./pages/About";
-import Timeline from "./pages/Timeline";
-import Sponsors from "./pages/Sponsors";
-import HowReg from "./pages/HowReg";
-import Contact from "./pages/Contact";
+import Hero from "./Components/Hero/Hero";
+import About from "./Components/About/About";
+import Speakers from "./Components/Speakers/Speakers";
+import Prizes from "./Components/Prizes/Prizes";
+import EventSection from "./Components/EventSection/EventSection";
+import Accordion from "./Components/Accordion/Accordion";
+import Footer from "./Components/Footer/Footer";
+import Timeline from "./Components/Timeline/Timeline";
+import Banner from "./Components/Banner/Banner";
+import Sponsors from "./Components/Sponsors/Sponsors";
 
 function App() {
-  const location = useLocation();
-
   return (
     <div className="App">
-      <AnimatePresence exitBeforeEnter>
-        <Routes location={location} key={location.key}>
-          <Route path="/" element={<Home />} />
-          <Route path="/about-event" element={<About />} />
-          <Route path="/timeline-prizes" element={<Timeline />} />
-          <Route path="/past-sponsors" element={<Sponsors />} />
-          <Route path="/how-to-register" element={<HowReg />} />
-          <Route path="/contact-us" element={<Contact />} />
-        </Routes>
-      </AnimatePresence>
+      <Hero />
+      <About />
+      <Banner />
+      <EventSection />
+      <Prizes />
+      <Speakers />
+      <Sponsors />
+      <Timeline />
+      <Accordion />
+      <Footer />
     </div>
   );
 }

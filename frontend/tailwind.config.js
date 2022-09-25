@@ -19,7 +19,8 @@ module.exports = {
       },
       fontFamily: {
         mudclaw: "Mudclaw",
-        ibm: "IBM Plex Mono",
+        mabry: "MabryPro-Regular",
+        upheavtt: "upheavtt",
       },
     },
   },

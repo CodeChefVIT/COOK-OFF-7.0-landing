@@ -1,15 +1,4 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  height: 100vh;
-  padding: 2rem;
-  text-align: center;
-}
-body {
-  overflow-x: hidden;
-}
-
-.font-face-mudclaw {
-  font-family: "MUDCLAW";
-  font-weight: 200;
+.App {
+    max-width: 100%;
+    overflow-x: hidden;
 }
