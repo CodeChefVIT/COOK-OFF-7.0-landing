@@ -29,7 +29,8 @@ const Speakers = () => {
       <div className={styles.container}>
         <h1>Speaker</h1>
         <div className="flex justify-center">
-          <div className="w-[70vw]">
+          <p className="text-4xl">To be announced soon ...</p>
+          {/*<div className="w-[70vw]">
             <div className={styles.container_row_1}>
               <div className={styles.box_main_container}>
                 <div className={styles.box_main_top}>
@@ -60,7 +61,7 @@ const Speakers = () => {
                 <img src={SampleImage1} alt="" />
               </div>
             </div>
-          </div>
+                  </div>*/}
         </div>
       </div>
     </div>

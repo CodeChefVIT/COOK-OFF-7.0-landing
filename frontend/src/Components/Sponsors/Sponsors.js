@@ -1,4 +1,6 @@
 import styles from "./Sponsors.module.css";
+import Image from "./../../Images/Image.jpeg";
+import Image2 from "./../../AmantyaLogo.jpg";
 
 const Sponsors = () => {
   return (
@@ -7,9 +9,14 @@ const Sponsors = () => {
         <h1 className="font-mudclaw text-center text-6xl text-white">
           Sponsors
         </h1>
-        <p className="text-2xl lg:text-5xl font-mono text-white">
-          To be announced soon....
-        </p>
+        <div className="flex flex-col md:flex-row lg:flex-row justify-between">
+          <img
+            src={Image}
+            alt=""
+            className="h-[10rem] md:mr-32 lg:mr-44 rounded-2xl mb-16 md:mb-0 lg:mb-0"
+          />
+          <img src={Image2} alt="" className="h-[20rem] rounded-2xl" />
+        </div>
       </div>
     </div>
   );
