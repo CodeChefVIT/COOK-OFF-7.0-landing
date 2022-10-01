@@ -8,7 +8,7 @@ const Cards = (props) => {
     <div className="flex justify-center">
       <div className="w-[70vw]">
         <div className="flex flex-col md:flex-row lg:flex-row justify-between mt-20 items-center">
-          <div className="bg-[#F4CED3] border-4 border-black rounded-xl md:max-w-xs lg:min-w-max mb-4 md:mr-8 h-[100%] w-[16rem] md:w-[32rem]">
+          <div className="bg-[#F4CED3] border-4 border-black rounded-xl md:max-w-xs lg:min-w-max mb-4 md:mb-0 lg:mb-0 md:mr-8 h-[100%] w-[16rem] md:w-[32rem]">
             <div className="flex flex-row justify-between items-center py-3 px-5">
               <p>TIME</p>
               <img src={Clock} alt="clock" className="w-6 rounded-full" />
