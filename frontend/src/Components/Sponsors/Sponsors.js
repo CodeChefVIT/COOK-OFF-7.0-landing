@@ -13,9 +13,9 @@ const Sponsors = () => {
           <img
             src={Image}
             alt=""
-            className="h-[10rem] md:mr-32 lg:mr-44 rounded-2xl mb-16 md:mb-0 lg:mb-0"
+            className="h-[10rem] md:mr-32 lg:mr-44 rounded-2xl mb-16 md:mb-0 lg:mb-0 mx-10"
           />
-          <img src={Image2} alt="" className="h-[20rem] rounded-2xl" />
+          <img src={Image2} alt="" className="h-[20rem] rounded-2xl mx-10" />
         </div>
       </div>
     </div>

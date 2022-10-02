@@ -1,10 +1,5 @@
 import styles from "./Speakers.module.css";
-import Banner from "../../Images/SpeakersBanner.png";
-import SampleImage1 from "../../Images/Speaker1.png";
-import SampleImage2 from "../../Images/Speaker2.png";
-import SampleImage3 from "../../Images/Speaker3.png";
-import SampleImage4 from "../../Images/Speaker4.png";
-import Linkedin from "../../Images/Linkedin.png";
+import SampleImage from "./Speaker.jpeg";
 import Link from "../../Images/Link.svg";
 
 import { useState } from "react";
@@ -17,9 +12,9 @@ const Speakers = () => {
   // const navigate = useNavigate();
 
   const [desc, setDesc] = useState(
-    "After working as a technical product manager for various companies, he founded Myrl Tech which has built products for prestigious companies like Honda, Mastercard, and many more."
+    "Navyaa Sharma a distinguished VIT alumni, started her tech journey at Microsoft as a Consultant Intern before moving on to Google where she's currently working full time as an Application Engineer."
   );
-  const [title, setTitle] = useState("Akhil Sharma");
+  const [title, setTitle] = useState("Navyaa Sharma");
   const [url, setUrl] = useState("https://www.linkedin.com/in/akhilsails/");
   // console.log(images);
 
@@ -29,8 +24,7 @@ const Speakers = () => {
       <div className={styles.container}>
         <h1>Speaker</h1>
         <div className="flex justify-center">
-          <p className="text-4xl">To be announced soon ...</p>
-          {/*<div className="w-[70vw]">
+          <div className="w-[70vw]">
             <div className={styles.container_row_1}>
               <div className={styles.box_main_container}>
                 <div className={styles.box_main_top}>
@@ -58,10 +52,10 @@ const Speakers = () => {
                   setUrl("https://www.linkedin.com/in/akhilsails/")
                 )}
               >
-                <img src={SampleImage1} alt="" />
+                <img src={SampleImage} alt="" />
               </div>
             </div>
-                  </div>*/}
+          </div>
         </div>
       </div>
     </div>

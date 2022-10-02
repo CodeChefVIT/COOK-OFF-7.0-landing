@@ -4,19 +4,19 @@ import Cards from "./../Cards/Cards";
 const Timeline = () => {
   const arr = [
     {
-      time: "10:00 AM - 12:00 PM",
+      time: "09:00 AM - 10:30 PM",
       info: "The first round of Cook Off will be conducted on the CodeChef portal. It consists of 7 questions that are to be solved in 2 hours. ",
     },
     {
-      time: "01:00 PM - 03:30 PM",
+      time: "11:00 PM - 12:30 PM",
       info: "Round 2 consists of 7 questions that are to be solved in 2 hours. This round will be conducted on the CodeChef portal.",
     },
     {
-      time: "04:30 AM - 05:30 PM",
+      time: "02:30 AM - 03:30 PM",
       info: "The third round will have 3 questions that are to be solved in 1 hour. This round will take place on a portal specially developed by CodeChef-VIT.",
     },
     {
-      time: "05:30 PM - 06:00 PM",
+      time: "03:30 PM - 04:00 PM",
       info: "Closing ceremony. It will include Prize and certificate distribution. Look forward to the surprises we have planned for you!",
     },
   ];

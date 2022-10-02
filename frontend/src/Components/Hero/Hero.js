@@ -40,8 +40,11 @@ const Landing = () => {
                 you Cook Off 7.0, our flagship competitive coding event, get
                 ready for the competitive coding event of the year!
               </p>
+              <p className="text-xl font-bold font-mono">
+                Venue: Anna Auditorium
+              </p>
             </div>
-            <div className="-translate-y-14">
+            <div className="-translate-y-18">
               <a href="https://events.vit.ac.in/events/gravitas2022/">
                 <button className={styles.hero_button}>Register Now!</button>
               </a>

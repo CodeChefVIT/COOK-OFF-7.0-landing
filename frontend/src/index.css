@@ -52,11 +52,11 @@ html {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #615eff;
+  background: #e486a1;
   border-radius: 1rem;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #7a60ff;
+  background: #e486a1;
 }
 
 @font-face {
