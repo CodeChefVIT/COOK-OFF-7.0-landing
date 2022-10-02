@@ -11,6 +11,9 @@ import Banner from "./Components/Banner/Banner";
 import Sponsors from "./Components/Sponsors/Sponsors";
 
 function App() {
+  console.log(
+    "Yay! You did it. Raise your hand to claim the prize. Keep it a secret from your sneaky friends"
+  );
   return (
     <div className="App">
       <Hero />
