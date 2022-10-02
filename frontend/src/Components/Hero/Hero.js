@@ -45,8 +45,10 @@ const Landing = () => {
               </p>
             </div>
             <div className="-translate-y-18">
-              <a href="https://events.vit.ac.in/events/gravitas2022/">
-                <button className={styles.hero_button}>Register Now!</button>
+              <a href="#">
+                <button className={styles.hero_button}>
+                  Registrations Closed!
+                </button>
               </a>
             </div>
           </div>
